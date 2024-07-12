@@ -28,7 +28,6 @@ class ChatProvider extends ChangeNotifier {
     final herMessage = await getYesNoAnswer.getAnswer();
     messageList.add(herMessage);
     notifyListeners();
-
     moveScrollToBotom();
   }
 
